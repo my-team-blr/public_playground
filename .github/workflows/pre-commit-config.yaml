@@ -1,0 +1,7 @@
+name: gitleaks
+
+on: [push,pull_request]
+repos:
+	-   repo: https://github.com/pre-commit/pre-commit-hooks
+	hooks:
+    -   id: gitkeaks
